@@ -273,21 +273,11 @@ function updateReportCard(reportCardTableElement, currentSemester) {
  * If the dropdown classList doesn't contain the "closed" class, 'closeDropdown' function should add it.
  */
 function closeDropdown(dropdownElement) {
-  // code goes here
-  if(!dropdownElement.classList.contains('closed')){
     dropdownElement.classList.add('closed');
-  } else{
-    dropdownElement.classList.remove('closed');
-  }
 }
 
 function openDropdown(dropdownElement) {
-  // code goes here
-  if(dropdownElement.classList.contains('closed')){
   dropdownElement.classList.remove('closed');
-} else{
-  dropdownElement.classList.add('closed');
-}
 }
 
 /**
@@ -316,7 +306,6 @@ function addEventListeners(
   console.log(dropdownElement.innerText);
   // Add an event listener for the dropdown button that calls the openDropdown function with the correct DOM element
   dropdownButtonElement.addEventListener("click", (e) => {
-    console.log("I have been clicked");
     openDropdown(dropdownElement);
         })
   // Add 3 event listeners - one for the fall semester option, the spring semester option, and the winter term option
