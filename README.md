@@ -1,3 +1,5 @@
+![lab2](https://user-images.githubusercontent.com/54002497/173212015-36c1c60f-0495-492b-848a-19604320752d.gif)
+
 # Report Card Generator Lab
 
 Your college has realized their report card generating system is broken! They've reached out to Site to see if interns would be willing to help them fix it.
